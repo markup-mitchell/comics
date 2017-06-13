@@ -1,0 +1,35 @@
+h1 {
+  color: coral;
+}
+
+.strip-container {
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+.frame-container {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   width: 90vw;
+   height: 90xvh;
+   background-color: red;
+   justify-content: flex-start;
+   align-content: start;
+}
+
+img {
+   width: auto;
+   height: 300px;
+.frame {
+   width: 20vh;
+   height: 20vh;
+/*    width: 100vh;
+   height: 100vh;
+   background-image: url("http://www.slightlywarped.com/crapfactory/curiosities/2013/january/images/15.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-color: tan;
+} */
